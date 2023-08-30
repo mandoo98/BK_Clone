@@ -3,7 +3,7 @@ let products;
 let myProduct;
 
 async function getJson(){
-    const response = await fetch("../js/list/DB/ChickenMenu.json");  
+    const response = await fetch("../js/list/DB/Desktop/ChickenMenu.json");  
     products = await response.json();
     return products;
 }

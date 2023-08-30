@@ -1,0 +1,82 @@
+{
+  "WhopperMenu": [
+    {
+      "id": 93,
+      "name": "콰트로치즈와퍼",
+      "img": "../img/Common/B.menu/D.w&j/콰트로치즈와퍼.png",
+      "href": "menu.html",
+      "category": "W&J"
+    },
+    {
+      "id": 94,
+      "name": "베이컨치즈와퍼",
+      "img": "../img/Common/B.menu/D.w&j/베이컨치즈와퍼.png",
+      "href": "menu.html",
+      "category": "W&J"
+    },
+    {
+      "id": 95,
+      "name": "갈릭불고기와퍼",
+      "img": "../img/Common/B.menu/D.w&j/갈릭불고기와퍼.png",
+      "href": "menu.html",
+      "category": "W&J"
+    },
+    {
+      "id": 96,
+      "name": "치즈와퍼",
+      "img": "../img/Common/B.menu/D.w&j/치즈와퍼.png",
+      "href": "menu.html",
+      "category": "W&J"
+    },
+    {
+      "id": 97,
+      "name": "와퍼",
+      "img": "../img/Common/B.menu/D.w&j/와퍼.png",
+      "href": "menu.html",
+      "category": "W&J"
+    },
+    {
+      "id": 98,
+      "name": "불고기와퍼",
+      "img": "../img/Common/B.menu/D.w&j/불고기와퍼.png",
+      "href": "menu.html",
+      "category": "W&J"
+    },
+    {
+      "id": 99,
+      "name": "통새우와퍼주니어",
+      "img": "../img/Common/B.menu/D.w&j/통새우와퍼주니어.png",
+      "href": "menu.html",
+      "category": "W&J"
+    },
+    {
+      "id": 100,
+      "name": "콰트로치즈와퍼주니어",
+      "img": "../img/Common/B.menu/D.w&j/콰트로치즈와퍼주니어.png",
+      "href": "menu.html",
+      "category": "W&J"
+    },
+    {
+      "id": 101,
+      "name": "치즈와퍼주니어",
+      "img": "../img/Common/B.menu/D.w&j/치즈와퍼주니어.png",
+      "href": "menu.html",
+      "category": "W&J"
+    },
+    {
+      "id": 102,
+      "name": "와퍼주니어",
+      "img": "../img/Common/B.menu/D.w&j/와퍼주니어.png",
+      "href": "menu.html",
+      "category": "W&J"
+    },
+    {
+      "id": 103,
+      "name": "불고기와퍼주니어",
+      "img": "../img/Common/B.menu/D.w&j/불고기와퍼주니어.png",
+      "href": "menu.html",
+      "category": "W&J"
+    }
+    
+  ]
+}

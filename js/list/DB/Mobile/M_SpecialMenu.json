@@ -1,0 +1,32 @@
+{
+  "SpecialMenu": [
+    {
+      "id": 74,
+      "name": "스모키 바비큐 와퍼 팩1",
+      "img": "../img/Common/B.menu/A.special/스모키 바비큐 와퍼 팩1.png",
+      "href": "menu.html",
+      "category": "special"
+    },
+    {
+      "id": 75,
+      "name": "스모키 바비큐 와퍼 팩2",
+      "img": "../img/Common/B.menu/A.special/스모키 바비큐 와퍼 팩2.png",
+      "href": "menu.html",
+      "category": "special"
+    },
+    {
+      "id": 76,
+      "name": "스모키 바비큐 와퍼 팩3",
+      "img": "../img/Common/B.menu/A.special/스모키 바비큐 와퍼 팩3.png",
+      "href": "menu.html",
+      "category": "special"
+    },
+    {
+      "id": 77,
+      "name": "스모키 바비큐 와퍼 팩4",
+      "img": "../img/Common/B.menu/A.special/스모키 바비큐 와퍼 팩4.png",
+      "href": "menu.html",
+      "category": "special"
+    }
+  ]
+}

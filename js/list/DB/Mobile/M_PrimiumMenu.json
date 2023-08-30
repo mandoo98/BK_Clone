@@ -1,0 +1,39 @@
+{
+  "PrimiumMenu": [
+    {
+      "id": 88,
+      "name": "기네스콰트로치즈와퍼",
+      "img": "../img/Common/B.menu/C.primium/기네스콰트로치즈와퍼.png",
+      "href": "menu.html",
+      "category": "primium"
+    },
+    {
+      "id": 89,
+      "name": "기네스와퍼",
+      "img": "../img/Common/B.menu/C.primium/기네스와퍼.png",
+      "href": "menu.html",
+      "category": "primium"
+    },
+    {
+      "id": 90,
+      "name": "몬스터와퍼",
+      "img": "../img/Common/B.menu/C.primium/몬스터와퍼.png",
+      "href": "menu.html",
+      "category": "primium"
+    },
+    {
+      "id": 91,
+      "name": "몬스터X",
+      "img": "../img/Common/B.menu/C.primium/몬스터X.png",
+      "href": "menu.html",
+      "category": "primium"
+    },
+    {
+      "id": 92,
+      "name": "통새우와퍼",
+      "img": "../img/Common/B.menu/C.primium/통새우와퍼.png",
+      "href": "menu.html",
+      "category": "primium"
+    }
+  ]
+}

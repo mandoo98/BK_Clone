@@ -3,7 +3,7 @@ let products;
 let myProduct;
 
 async function getJson(){
-    const response = await fetch("../js/list/DB/Desktop/NewMenu.json");  
+    const response = await fetch("../js/list/DB/Mobile/M_NewMenu.json");  
     products = await response.json();
     return products;
 }
@@ -14,7 +14,7 @@ getJson()
 //li만들어서 ul에 넣어주는 함수
 //menu list
 const createItem = (product)=>{
-    const tab2 = document.querySelector('#tab2 > .menuLists');
+    const tab10 = document.querySelector('#tab10 > .menuLists');
     const li = document.createElement('li');
     const a = document.createElement('a');
     const img = document.createElement('img');
@@ -32,7 +32,7 @@ const createItem = (product)=>{
     p.className = 'menuName';
     p.innerHTML = product.name;
 
-    tab2.append(li)
+    tab10.append(li)
     li.append(a)
     a.append(img,p)
 }

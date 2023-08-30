@@ -153,7 +153,7 @@ body {
                 .menu_page {
                     width: 100%;
                     height: 100%;
-                    padding: 100px 0 40px;
+                    padding-top: 80px;
                     font-family: 'yg-jalnan';
 
                     .main_title {
@@ -224,37 +224,61 @@ body {
                     .menuList_wrap {
                         width: 100%;
                         height: 100%;
-                        padding: 30px 0px;
+                        padding-top: 30px;
     
                         .menuListBtn {
                             width: 100%;
                             height: 100%;
+                            padding: 0 20px;
     
                             .menuLists {
                                 width: 100%;
                                 height: 100%;
-                                display: flex;
-                                flex-wrap: wrap;
-                                justify-content: flex-start;
-                                align-items: center;
     
                                 &.off {display: none;}
 
                                 .menuList {
-                                    width: 25%;
-                                    margin-bottom: 50px;
+                                    width: 100%;
+                                    height: 100%;
+                                    border-bottom: 1px solid #f3f4f5;
+                                    padding: 10px 0;
+
+                                    &:last-child {border-bottom: none;}
     
                                     .menuA {
+                                        position: relative;
                                         display: inline-block;
                                         width: 100%;
                                         height: 100%;
-                                        text-align: center;
+
+                                        &:after {
+                                            content: '';
+                                            position: absolute;
+                                            top: 50%;
+                                            transform: translateY(-50%);
+                                            right: 20px;
+                                            display: block;
+                                            width: 10px;
+                                            height: 15px;
+                                            background: {
+                                                image: url('../img/Mobile/M_moreBtn.png');
+                                                repeat: no-repeat;
+                                                size: 100%;
+                                                position: center;
+                                            }
+                                        }
     
                                         .menuImge {
                                             max-width: 220px;
-                                            height: 100%;
+                                            width: 118px;
+                                            height: 86px;
+                                            margin-right: 20px;
+                                            vertical-align: middle;
                                         }
-                                        .menuName {font-size: 1.2rem;}
+                                        .menuName {
+                                            display: inline-block;
+                                            font-size: 1rem;
+                                        }
                                     }
                                 }
                             }
