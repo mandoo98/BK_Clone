@@ -1,0 +1,109 @@
+{
+  "SideMenu": [
+    {
+      "id": 46,
+      "name": "너겟킹 8조각",
+      "img": "../img/Common/B.menu/G.side/너겟킹 8조각.png",
+      "href": "menu.html",
+      "category": "side"
+    },
+    {
+      "id": 47,
+      "name": "너겟킹",
+      "img": "../img/Common/B.menu/G.side/너겟킹.png",
+      "href": "menu.html",
+      "category": "side"
+    },
+    {
+      "id": 48,
+      "name": "21치즈스틱",
+      "img": "../img/Common/B.menu/G.side/치즈스틱21.png",
+      "href": "menu.html",
+      "category": "side"
+    },
+    {
+      "id": 49,
+      "name": "어니언링",
+      "img": "../img/Common/B.menu/G.side/어니언링.png",
+      "href": "menu.html",
+      "category": "side"
+    },
+    {
+      "id": 50,
+      "name": "바삭킹",
+      "img": "../img/Common/B.menu/G.side/바삭킹.png",
+      "href": "menu.html",
+      "category": "side"
+    },
+    {
+      "id": 51,
+      "name": "바삭킹8조각+소스",
+      "img": "../img/Common/B.menu/G.side/바삭킹8조각+소스.png",
+      "href": "menu.html",
+      "category": "side"
+    },
+    {
+      "id": 52,
+      "name": "쉐이킹프라이",
+      "img": "../img/Common/B.menu/G.side/쉐이킹프라이.png",
+      "href": "menu.html",
+      "category": "side"
+    },
+    {
+      "id": 53,
+      "name": "크리미모짜볼",
+      "img": "../img/Common/B.menu/G.side/크리미모짜볼.png",
+      "href": "menu.html",
+      "category": "side"
+    },
+    {
+      "id": 54,
+      "name": "코코넛슈림프+스위트칠리소스",
+      "img": "../img/Common/B.menu/G.side/코코넛슈림프+스위트칠리소스.png",
+      "href": "menu.html",
+      "category": "side"
+    },
+    {
+      "id": 55,
+      "name": "치즈프라이",
+      "img": "../img/Common/B.menu/G.side/치즈프라이.png",
+      "href": "menu.html",
+      "category": "side"
+    },
+    {
+      "id": 56,
+      "name": "프렌치프라이",
+      "img": "../img/Common/B.menu/G.side/프렌치프라이.png",
+      "href": "menu.html",
+      "category": "side"
+    },
+    {
+      "id": 57,
+      "name": "코울슬로",
+      "img": "../img/Common/B.menu/G.side/코울슬로.png",
+      "href": "menu.html",
+      "category": "side"
+    },
+    {
+      "id": 58,
+      "name": "콘샐러드",
+      "img": "../img/Common/B.menu/G.side/콘샐러드.png",
+      "href": "menu.html",
+      "category": "side"
+    },
+    {
+      "id": 59,
+      "name": "사이드소스",
+      "img": "../img/Common/B.menu/G.side/사이드소스.png",
+      "href": "menu.html",
+      "category": "side"
+    },
+    {
+      "id": 60,
+      "name": "시즈닝",
+      "img": "../img/Common/B.menu/G.side/시즈닝.png",
+      "href": "menu.html",
+      "category": "side"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "ChickenMenu": [
+    {
+      "id": 31,
+      "name": "비프&슈림프버거",
+      "img": "../img/Common/B.menu/E.c&s/비프&슈림프버거.png",
+      "href": "menu.html",
+      "category": "C&S"
+    },
+    {
+      "id": 32,
+      "name": "통새우슈림프버거",
+      "img": "../img/Common/B.menu/E.c&s/통새우슈림프버거.png",
+      "href": "menu.html",
+      "category": "C&S"
+    },
+    {
+      "id": 33,
+      "name": "슈림프버거",
+      "img": "../img/Common/B.menu/E.c&s/슈림프버거.png",
+      "href": "menu.html",
+      "category": "C&S"
+    },
+    {
+      "id": 34,
+      "name": "롱치킨버거",
+      "img": "../img/Common/B.menu/E.c&s/롱치킨버거.png",
+      "href": "menu.html",
+      "category": "C&S"
+    },
+    {
+      "id": 35,
+      "name": "바비큐치킨버거",
+      "img": "../img/Common/B.menu/E.c&s/바비큐치킨버거.png",
+      "href": "menu.html",
+      "category": "C&S"
+    },
+    {
+      "id": 36,
+      "name": "치킨버거",
+      "img": "../img/Common/B.menu/E.c&s/치킨버거.png",
+      "href": "menu.html",
+      "category": "C&S"
+    }
+  ]
+}

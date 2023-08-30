@@ -1,0 +1,29 @@
+/* 자주쓰는 색 */
+$mainRed: #D72300;
+$mainBrown: #502416;
+$footerBG: #2B0200;
+$footerMenu: #f5ebdc;
+$footerFont: #bba391;
+$menuRed: #e22219;
+
+
+/* media setting */
+$Mobile: 768px;
+
+@mixin D_wrap {
+  @media(min-width: ($Mobile+1)){
+    @content;
+  }
+}
+
+@mixin M_wrap {
+  @media(max-width: $Mobile){
+    @content;
+  }
+}
+
+@mixin Small {
+  @media (max-width: 359px){
+    @content;
+  }
+}

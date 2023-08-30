@@ -1,0 +1,147 @@
+/* Error: Undefined mixin.
+ *     ,
+ * 2   | /     @include D_wrap{
+ * 3   | |         header {
+ * 4   | |             position: relative;
+ * 5   | |             width: 100%;
+ * 6   | |             height: 120px;
+ * 7   | |             box-shadow: 0px 2px 5px rgba(0,0,0,0.2);
+ * 8   | | 
+ * 9   | |             &.boxShadow {box-shadow: none;}
+ * 10  | |     
+ * 11  | |             .header_wrap {
+ * 12  | |                 position: relative;
+ * 13  | |                 max-width: 1184px;
+ * 14  | |                 width: 1184px;
+ * 15  | |                 height: 100%;
+ * 16  | |                 display: flex;
+ * 17  | |                 justify-content: space-between;
+ * 18  | |                 align-items: center;
+ * 19  | |                 margin: 0 auto;
+ * 20  | |                 padding-top: 20px;
+ * 21  | |                 background-color: #fff;
+ * 22  | |     
+ * 23  | |                 .main_logo {
+ * 24  | |                     width: 80px;
+ * 25  | |                     height: 80px;
+ * 26  | |     
+ * 27  | |                     a {
+ * 28  | |                         display: inline-block;
+ * 29  | |                         width: 100%;
+ * 30  | |                         height: 100%;
+ * 31  | |                         background: url('../img/Desktop/mainLogo.gif') no-repeat center center / 100%;
+ * 32  | |                     }
+ * 33  | |                 }
+ * 34  | |                 .D_mainMenu {
+ * 35  | |                     width: 53%;
+ * 36  | |                     display: flex;
+ * 37  | |                     justify-content: space-between;
+ * 38  | |                     margin-top: 50px;
+ * 39  | | 
+ * 40  | |                     > li {
+ * 41  | |                         width: 100%;
+ * 42  | |                         > a {
+ * 43  | |                             display: inline-block;
+ * 44  | |                             width: 100%;
+ * 45  | |                             height: 100%;
+ * 46  | |                             padding-bottom: 21px;
+ * 47  | |                             cursor: default;
+ * 48  | | 
+ * 49  | |                             span {
+ * 50  | |                                 position: relative;
+ * 51  | |                                 font-family: 'bitbit';
+ * 52  | |                                 font-size: 1.6rem;
+ * 53  | |                                 cursor: pointer;
+ * 54  | | 
+ * 55  | |                                 &::before {
+ * 56  | |                                     content: '';
+ * 57  | |                                     position: absolute;
+ * 58  | |                                     top: 40%;
+ * 59  | |                                     right: -13px;
+ * 60  | |                                     width: 8px;
+ * 61  | |                                     height: 8px;
+ * 62  | |                                     background: {
+ * 63  | |                                         image: url('../img/Common/A.main/down_arrow.gif');
+ * 64  | |                                         repeat: no-repeat;
+ * 65  | |                                         size: 100%;
+ * 66  | |                                         position: center center;
+ * 67  | |                                     }
+ * 68  | |                                 }
+ * 69  | |                             }
+ * 70  | |                         }
+ * 71  | | 
+ * 72  | |                         .D_subMenu {
+ * 73  | |                             display: none;
+ * 74  | |                             position: absolute;
+ * 75  | |                             top: 100%;
+ * 76  | |                             width: 15%;
+ * 77  | |                             height: 322px;
+ * 78  | |                             z-index: 10;
+ * 79  | |                             transition: 0.2s;
+ * 80  | | 
+ * 81  | |                             &.open {display: block;}
+ * 82  | | 
+ * 83  | |                             li {
+ * 84  | | 
+ * 85  | |                                 a {
+ * 86  | |                                     display: inline-block;
+ * 87  | |                                     width: 100%;
+ * 88  | |                                     height: 100%;
+ * 89  | |                                     padding: 8px 0px;
+ * 90  | |                                     font-size: 0.9rem;
+ * 91  | |                                     font-weight: 600;
+ * 92  | |                                 }
+ * 93  | |                             }
+ * 94  | |                         }
+ * 95  | |                     }
+ * 96  | |                 }
+ * 97  | |                 .D_mainBtn {
+ * 98  | |                     display: flex;
+ * 99  | |                     li {
+ * 100 | |                         border-radius: 50px;
+ * 101 | |                         margin-left: 20px;
+ * 102 | |                         a {
+ * 103 | |                             display: inline-block;
+ * 104 | |                             width: 100%;
+ * 105 | |                             height: 100%;
+ * 106 | |                             font-family: 'bitbit';
+ * 107 | |                             font-size: 1.5rem;
+ * 108 | |                             padding: 16px 25px 13px;
+ * 109 | |                             color: $whiteColor;
+ * 110 | |                         }
+ * 111 | |                     }
+ * 112 | |                     li:first-child {
+ * 113 | |                         margin-left: 0px;
+ * 114 | |                         background-color: #502416;
+ * 115 | |                     }
+ * 116 | |                     li:last-child {background-color: #D72300;}
+ * 117 | |                 }
+ * 118 | |             }
+ * 119 | | 
+ * 120 | |             .D_menuBg {
+ * 121 | |                 position: absolute;
+ * 122 | |                 top: 100%;
+ * 123 | |                 width: 100%;
+ * 124 | |                 height: 0;
+ * 125 | |                 z-index: 9;
+ * 126 | | 
+ * 127 | |                 &.open {
+ * 128 | |                     height: 322px;
+ * 129 | |                     box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+ * 130 | |                 }
+ * 131 | |             }
+ * 132 | |         }
+ * 133 | \     }
+ *     '
+ *   scss\_index.scss 2:5  root stylesheet */
+
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Undefined mixin.\a     \2577 \a 2   \2502  \250c      @include D_wrap{\a 3   \2502  \2502          header {\a 4   \2502  \2502              position: relative;\a 5   \2502  \2502              width: 100%;\a 6   \2502  \2502              height: 120px;\a 7   \2502  \2502              box-shadow: 0px 2px 5px rgba(0,0,0,0.2);\a 8   \2502  \2502  \a 9   \2502  \2502              &.boxShadow {box-shadow: none;}\a 10  \2502  \2502      \a 11  \2502  \2502              .header_wrap {\a 12  \2502  \2502                  position: relative;\a 13  \2502  \2502                  max-width: 1184px;\a 14  \2502  \2502                  width: 1184px;\a 15  \2502  \2502                  height: 100%;\a 16  \2502  \2502                  display: flex;\a 17  \2502  \2502                  justify-content: space-between;\a 18  \2502  \2502                  align-items: center;\a 19  \2502  \2502                  margin: 0 auto;\a 20  \2502  \2502                  padding-top: 20px;\a 21  \2502  \2502                  background-color: #fff;\a 22  \2502  \2502      \a 23  \2502  \2502                  .main_logo {\a 24  \2502  \2502                      width: 80px;\a 25  \2502  \2502                      height: 80px;\a 26  \2502  \2502      \a 27  \2502  \2502                      a {\a 28  \2502  \2502                          display: inline-block;\a 29  \2502  \2502                          width: 100%;\a 30  \2502  \2502                          height: 100%;\a 31  \2502  \2502                          background: url('../img/Desktop/mainLogo.gif') no-repeat center center / 100%;\a 32  \2502  \2502                      }\a 33  \2502  \2502                  }\a 34  \2502  \2502                  .D_mainMenu {\a 35  \2502  \2502                      width: 53%;\a 36  \2502  \2502                      display: flex;\a 37  \2502  \2502                      justify-content: space-between;\a 38  \2502  \2502                      margin-top: 50px;\a 39  \2502  \2502  \a 40  \2502  \2502                      > li {\a 41  \2502  \2502                          width: 100%;\a 42  \2502  \2502                          > a {\a 43  \2502  \2502                              display: inline-block;\a 44  \2502  \2502                              width: 100%;\a 45  \2502  \2502                              height: 100%;\a 46  \2502  \2502                              padding-bottom: 21px;\a 47  \2502  \2502                              cursor: default;\a 48  \2502  \2502  \a 49  \2502  \2502                              span {\a 50  \2502  \2502                                  position: relative;\a 51  \2502  \2502                                  font-family: 'bitbit';\a 52  \2502  \2502                                  font-size: 1.6rem;\a 53  \2502  \2502                                  cursor: pointer;\a 54  \2502  \2502  \a 55  \2502  \2502                                  &::before {\a 56  \2502  \2502                                      content: '';\a 57  \2502  \2502                                      position: absolute;\a 58  \2502  \2502                                      top: 40%;\a 59  \2502  \2502                                      right: -13px;\a 60  \2502  \2502                                      width: 8px;\a 61  \2502  \2502                                      height: 8px;\a 62  \2502  \2502                                      background: {\a 63  \2502  \2502                                          image: url('../img/Common/A.main/down_arrow.gif');\a 64  \2502  \2502                                          repeat: no-repeat;\a 65  \2502  \2502                                          size: 100%;\a 66  \2502  \2502                                          position: center center;\a 67  \2502  \2502                                      }\a 68  \2502  \2502                                  }\a 69  \2502  \2502                              }\a 70  \2502  \2502                          }\a 71  \2502  \2502  \a 72  \2502  \2502                          .D_subMenu {\a 73  \2502  \2502                              display: none;\a 74  \2502  \2502                              position: absolute;\a 75  \2502  \2502                              top: 100%;\a 76  \2502  \2502                              width: 15%;\a 77  \2502  \2502                              height: 322px;\a 78  \2502  \2502                              z-index: 10;\a 79  \2502  \2502                              transition: 0.2s;\a 80  \2502  \2502  \a 81  \2502  \2502                              &.open {display: block;}\a 82  \2502  \2502  \a 83  \2502  \2502                              li {\a 84  \2502  \2502  \a 85  \2502  \2502                                  a {\a 86  \2502  \2502                                      display: inline-block;\a 87  \2502  \2502                                      width: 100%;\a 88  \2502  \2502                                      height: 100%;\a 89  \2502  \2502                                      padding: 8px 0px;\a 90  \2502  \2502                                      font-size: 0.9rem;\a 91  \2502  \2502                                      font-weight: 600;\a 92  \2502  \2502                                  }\a 93  \2502  \2502                              }\a 94  \2502  \2502                          }\a 95  \2502  \2502                      }\a 96  \2502  \2502                  }\a 97  \2502  \2502                  .D_mainBtn {\a 98  \2502  \2502                      display: flex;\a 99  \2502  \2502                      li {\a 100 \2502  \2502                          border-radius: 50px;\a 101 \2502  \2502                          margin-left: 20px;\a 102 \2502  \2502                          a {\a 103 \2502  \2502                              display: inline-block;\a 104 \2502  \2502                              width: 100%;\a 105 \2502  \2502                              height: 100%;\a 106 \2502  \2502                              font-family: 'bitbit';\a 107 \2502  \2502                              font-size: 1.5rem;\a 108 \2502  \2502                              padding: 16px 25px 13px;\a 109 \2502  \2502                              color: $whiteColor;\a 110 \2502  \2502                          }\a 111 \2502  \2502                      }\a 112 \2502  \2502                      li:first-child {\a 113 \2502  \2502                          margin-left: 0px;\a 114 \2502  \2502                          background-color: #502416;\a 115 \2502  \2502                      }\a 116 \2502  \2502                      li:last-child {background-color: #D72300;}\a 117 \2502  \2502                  }\a 118 \2502  \2502              }\a 119 \2502  \2502  \a 120 \2502  \2502              .D_menuBg {\a 121 \2502  \2502                  position: absolute;\a 122 \2502  \2502                  top: 100%;\a 123 \2502  \2502                  width: 100%;\a 124 \2502  \2502                  height: 0;\a 125 \2502  \2502                  z-index: 9;\a 126 \2502  \2502  \a 127 \2502  \2502                  &.open {\a 128 \2502  \2502                      height: 322px;\a 129 \2502  \2502                      box-shadow: 0 2px 5px rgba(0,0,0,0.2);\a 130 \2502  \2502                  }\a 131 \2502  \2502              }\a 132 \2502  \2502          }\a 133 \2502  \2514      }\a     \2575 \a   scss\\_index.scss 2:5  root stylesheet";
+}

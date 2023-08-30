@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, telephone=no">
+  <title>메뉴정보 목록(클론)</title>
+  <link rel="icon" href="../img/Desktop/mainLogo.gif">
+  <link rel="stylesheet" href="../css/main.css">
+  <script src="../js/setting/jquery-3.6.4.min.js"></script>
+  <script src="../js/setting/prefixfree.min.js"></script>
+  <script defer src="../js/Desktop/mainMenu.js"></script>
+  <script defer src="../js/quickBtn.js"></script>
+  <script defer src="../js/Desktop/menuOnoff.js"></script>
+  <script defer src="../js/Mobile/toggleBtn.js"></script>
+  <script defer src="../js/Mobile/dropMenu.js"></script>
+</head>
+
+<body>
+    <div id="D_wrap">
+        <div class="quickBtn">
+            <div class="to_top_btn">
+            <a href="#D_wrap" class="to_top"></a>
+            </div>
+        </div>
+        <header>
+            <div class="header_wrap">
+                <h1 class="main_logo"><a href="../index.html"></a></h1>
+                <ul class="D_mainMenu">
+                    <li>
+                        <a href="#">
+                            <span>메뉴소개</span>
+                        </a>
+                        <ul class="D_subMenu listSelect">
+                            <li><a href="#">스페셜&할인팩</a></li>
+                            <li><a href="#">신제품(NEW)</a></li>
+                            <li><a href="#">프리미엄</a></li>
+                            <li><a href="#">와퍼&주니어</a></li>
+                            <li><a href="#">치킨&슈림프버거</a></li>
+                            <li><a href="#">올데이킹&킹모닝</a></li>
+                            <li><a href="#">사이드</a></li>
+                            <li><a href="#">음료&디저트</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span>매장소개</span>
+                        </a>
+                        <ul class="D_subMenu">
+                            <li><a href="#">매장찾기</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span>이벤트</span>
+                        </a>
+                        <ul class="D_subMenu">
+                            <li><a href="#">이벤트</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span>브랜드스토리</span>
+                        </a>
+                        <ul class="D_subMenu">
+                            <li><a href="#">BRAND</a></li>
+                            <li><a href="#">WHOPPER</a></li>
+                            <li><a href="#">COMM.</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="D_mainBtn">
+                    <li><a href="#">가맹점 문의</a></li>
+                    <li><a href="#">딜리버리 주문</a></li>
+                </ul>
+            </div>
+            <div class="D_menuBg"></div>
+        </header>
+
+        <div id="D_contents">
+            <div class="menu_root">
+                <div class="root_wrap">
+                    <span><a href="../index.html">HOME</a></span>
+                    <span>메뉴소개</span>
+                </div>
+            </div>
+            <div class="menu_bg">
+                <div class="menu_wrap">
+                    <div class="menu_page">
+                        <ul class="menuBtns">
+                            <li class="menu_title">메뉴소개</li>
+                            <li class="menuBtn on"><a href="#" class="btn">스페셜&할인팩</a></li>
+                            <li class="menuBtn"><a href="#" class="btn">신제품(NEW)</a></li>
+                            <li class="menuBtn"><a href="#" class="btn">프리미엄</a></li>
+                            <li class="menuBtn"><a href="#" class="btn">와퍼&주니어</a></li>
+                            <li class="menuBtn"><a href="#" class="btn">치킨&슈프림버거</a></li>
+                            <li class="menuBtn"><a href="#" class="btn">올데이킹&킹모닝</a></li>
+                            <li class="menuBtn"><a href="#" class="btn">사이드</a></li>
+                            <li class="menuBtn"><a href="#" class="btn">음료&디저트</a></li>
+                        </ul>
+                        <ul class="menuList_wrap">
+                            <li id="tab1" class="menuListBtn"><ul class="menuLists"></ul></li>
+                            <li id="tab2" class="menuListBtn"><ul class="menuLists off"></ul></li>
+                            <li id="tab3" class="menuListBtn"><ul class="menuLists off"></ul></li>
+                            <li id="tab4" class="menuListBtn"><ul class="menuLists off"></ul></li>
+                            <li id="tab5" class="menuListBtn"><ul class="menuLists off"></ul></li>
+                            <li id="tab6" class="menuListBtn"><ul class="menuLists off"></ul></li>
+                            <li id="tab7" class="menuListBtn"><ul class="menuLists off"></ul></li>
+                            <li id="tab8" class="menuListBtn"><ul class="menuLists off"></ul></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <footer>
+                <div class="footer_wrap">
+                    <div class="footer_top">
+                        <ul>
+                            <li>
+                                <p>메뉴</p>
+                                <ul>
+                                    <li><a href="#">스페셜&할인팩</a></li>
+                                    <li><a href="#">신제품(NEW)</a></li>
+                                    <li><a href="#">프리미엄</a></li>
+                                    <li><a href="#">와퍼&주니어</a></li>
+                                    <li><a href="#">치킨&슈프림버거</a></li>
+                                    <li><a href="#">올데이킹&킹모닝</a></li>
+                                    <li><a href="#">사이드</a></li>
+                                    <li><a href="#">음료&디저트</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <p>매장</p>
+                                <ul>
+                                    <li><a href="#">매장찾기</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <p>이벤트</p>
+                                <ul>
+                                    <li><a href="#">이벤트</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <p>브랜드 스토리</p>
+                                <ul>
+                                    <li><a href="#">BRAND</a></li>
+                                    <li><a href="#">WHOPPER</a></li>
+                                    <li><a href="#">COMM.</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <p>고객센터</p>
+                                <ul>
+                                    <li><a href="#">공지사항</a></li>
+                                    <li><a href="#">버거킹앱이용안내</a></li>
+                                    <li><a href="#">FAQ</a></li>
+                                    <li><a href="#">문의</a></li>
+                                    <li><a href="#">가맹점모집</a></li>
+                                    <li><a href="#">인재채용</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer_bottom">
+                        <div class="bottom_t">
+                            <img src="../img/Common/A.main/footerLogo.png" alt="버거킹 영어 로고">
+                            <ul>
+                                <li><a href="#">이용약관</a></li>
+                                <li><a href="#">개인정보처리방침</a></li>
+                                <li><a href="#">법적고지</a></li>
+                            </ul>
+                        </div>
+                        <div class="bottom_m">
+                            <div class="footer_text">
+                                <p>서울 종로구 삼봉로 71 G 타워 2층 주식회사 비케이알 | 전화주문 1599-0505</p>
+                                <p>사업자 등록번호 101-86-76277 | (주)BKR 대표이사 문영주, 이동형</p>
+                                <p>Copyright 2019 BKR Co., Ltd. All right Reserved</p>
+                            </div>
+                            <div class="footer_btn">
+                                <button>인재채용</button>
+                                <button>가맹점모집</button>
+                            </div>
+                        </div>
+                        <div class="bottom_b">
+                            <ul>
+                                <li><a href="https://www.facebook.com/burgerkingkorea" target="_blank"><img src="../img/Common/A.main/footerFacebook.png" alt="페이스북 로고"></a></li>
+                                <li><a href="https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fburgerkingkorea%2F" target="_blank"><img src="../img/Common/A.main/footerInstar.png" alt="인스타그램 로고"></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+
+    <div id="M_wrap">
+        <div class="quickBtn">
+            <div class="to_top_btn">
+                <a href="#M_wrap" class="to_top"></a>
+            </div>
+        </div>
+
+        <div class="toggleMenuList">
+            <div class="menuHeader">
+                <div class="closeBtn"></div>
+            </div>
+            <ul>
+                <li class="dropMenu">
+                    <a href="#">메뉴소개</a>
+                    <ul>
+                        <li><a href="menu.html">스페셜&할인팩</a></li>
+                        <li><a href="menu.html">신제품(NEW)</a></li>
+                        <li><a href="menu.html">프리미엄</a></li>
+                        <li><a href="menu.html">와퍼&주니어</a></li>
+                        <li><a href="menu.html">치킨&슈림프버거</a></li>
+                        <li><a href="menu.html">올데이킹&킹모닝</a></li>
+                        <li><a href="menu.html">사이드</a></li>
+                        <li><a href="menu.html">음료&디저트</a></li>
+                    </ul>
+                </li>
+                <li class="dropMenu">
+                    <a href="#">매장소개</a>
+                    <ul>
+                        <li><a href="menu.html">매장찾기</a></li>
+                    </ul>
+                </li>
+                <li class="dropMenu">
+                    <a href="#">이벤트</a>
+                    <ul>
+                        <li><a href="#">이벤트</a></li>
+                        <li><a href="#">신규매장</a></li>
+                    </ul>
+                </li>
+                <li class="dropMenu">
+                    <a href="#">브랜드스토리</a>
+                    <ul>
+                        <li><a href="#">BRAND</a></li>
+                        <li><a href="#">WHOPPER</a></li>
+                        <li><a href="#">COMM.</a></li>
+                    </ul>
+                </li>
+                <li class="dropMenu">
+                    <a href="#">고객센터</a>
+                    <ul>
+                        <li><a href="#">공지사항</a></li>
+                        <li><a href="#">버거킹앱이용안내</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">문의</a></li>
+                        <li><a href="#">가맹점모집</a></li>
+                        <li><a href="#">인재채용</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+
+        <header>
+            <div class="header_wrap">
+                <div class="menuBtn"></div>
+                <h1 class="main_logo"><a href="../index.html"></a></h1>
+                <div class="orderBtn"><a href="#">딜리버리주문</a></div>
+            </div>
+        </header>
+
+        <div id="M_contents">
+            <div class="menu_bg">
+                <div class="menu_wrap">
+                    <div class="menu_page">
+                        <h3 class="main_title">메뉴소개</h3>
+                        <ul class="menuBtns">
+                            <li class="menuBtn on"><a href="#" class="btn">스페셜&<br>할인팩</a></li>
+                            <li class="menuBtn"><a href="#" class="btn">신제품<br>(NEW)</a></li>
+                            <li class="menuBtn"><a href="#" class="btn">프리미엄</a></li>
+                            <li class="menuBtn"><a href="#" class="btn">와퍼&<br>주니어</a></li>
+                        </ul>
+                        <ul class="menuBtns">
+                            <li class="menuBtn"><a href="#" class="btn">치킨&<br>슈프림버거</a></li>
+                            <li class="menuBtn"><a href="#" class="btn">올데이킹&<br>킹모닝</a></li>
+                            <li class="menuBtn"><a href="#" class="btn">사이드</a></li>
+                            <li class="menuBtn"><a href="#" class="btn">음료&<br>디저트</a></li>
+                        </ul>
+                        <ul class="menuList_wrap">
+                            <li id="tab9" class="menuListBtn"><ul class="menuLists"></ul></li>
+                            <li id="tab2" class="menuListBtn"><ul class="menuLists off"></ul></li>
+                            <li id="tab3" class="menuListBtn"><ul class="menuLists off"></ul></li>
+                            <li id="tab4" class="menuListBtn"><ul class="menuLists off"></ul></li>
+                            <li id="tab5" class="menuListBtn"><ul class="menuLists off"></ul></li>
+                            <li id="tab6" class="menuListBtn"><ul class="menuLists off"></ul></li>
+                            <li id="tab7" class="menuListBtn"><ul class="menuLists off"></ul></li>
+                            <li id="tab8" class="menuListBtn"><ul class="menuLists off"></ul></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <footer>
+                <div class="footer_wrap">
+                    <div class="footer_t">
+                        <ul>
+                            <li><a href="#">이용약관</a></li>
+                            <li><a href="#">개인정보처리방침</a></li>
+                            <li><a href="#">법적고지</a></li>
+                        </ul>
+                        <div class="footer_btn">
+                            <button>인재채용</button>
+                            <button>가맹점모집</button>
+                        </div>
+                    </div>
+                    <div class="footer_m">
+                        <img src="../img/Common/A.main/footerLogo.png" alt="버거킹 영어 로고">
+                        <div class="footer_text">
+                            <p>서울 종로구 삼봉로 71 G 타워 2층 주식회사 비케이알 | 전화주문 1599-0505</p>
+                            <p>사업자 등록번호 101-86-76277 | (주)BKR 대표이사 문영주, 이동형</p>
+                            <p>Copyright 2019 BKR Co., Ltd. All right Reserved</p>
+                        </div>
+                    </div>
+                    <div class="footer_b">
+                        <ul>
+                            <li><a href="https://www.facebook.com/burgerkingkorea" target="_blank"><img src="../img/Common/A.main/footerFacebook.png" alt="페이스북 로고"></a></li>
+                            <li><a href="https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fburgerkingkorea%2F" target="_blank"><img src="../img/Common/A.main/footerInstar.png" alt="인스타그램 로고"></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+
+    <!-- Desktop -->
+    <script type="module" src="../js/list/Desktop/SpecialMenu.js"></script>
+    <script type="module" src="../js/list/Desktop/NewMenu.js"></script>
+    <script type="module" src="../js/list/Desktop/PrimiumMenu.js"></script>
+    <script type="module" src="../js/list/Desktop/WhopperMenu.js"></script>
+    <script type="module" src="../js/list/Desktop/ChickenMenu.js"></script>
+    <script type="module" src="../js/list/Desktop/AlldayMenu.js"></script>
+    <script type="module" src="../js/list/Desktop/SideMenu.js"></script>
+    <script type="module" src="../js/list/Desktop/DrinkMenu.js"></script>
+    
+    <!-- Mobile -->
+</body>
+</html>
